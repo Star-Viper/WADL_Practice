@@ -27,7 +27,7 @@ function ValidateEmail() {
 
     if (email.match(validRegex)) {
         emailError.textContent = "";
-        return true;
+        return alert("Email Validated");
     } else {
         emailError.textContent = "Invalid email address!";
         document.getElementById("email").focus();
