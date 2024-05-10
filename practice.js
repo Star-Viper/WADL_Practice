@@ -1,13 +1,3 @@
-// function add(a,b){
-//     console.log(a+b)
-// }
-
-// add(4,5)
-
-// var cel=document.getElementById("Enter temperature in Celsius");
-// var f=  c*1.8+32;
-// console.log(f)
-
 import React, { useState } from 'react';
 
 function Form() {
@@ -47,7 +37,6 @@ function Form() {
 
   const handleSubmit = (event) => {
     if (formValid) {
-      // do something with the form data
       console.log('Form is valid');
     } else {
       alert('Form is invalid');
